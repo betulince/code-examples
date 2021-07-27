@@ -1,3 +1,5 @@
+#https://codeforces.com/problemset/problem/5/B
+
 with open('input.txt') as f:
     lines = f.readlines()
 
