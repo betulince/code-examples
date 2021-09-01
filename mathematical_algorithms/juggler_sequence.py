@@ -1,3 +1,5 @@
+# The last term in Juggler Sequence is always 1.
+
 import math
 
 
