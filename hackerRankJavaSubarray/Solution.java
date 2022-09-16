@@ -18,7 +18,6 @@ public class Solution {
         //System.out.println(list);
         int counter = 0;
         for (int i=0; i<n; i++) { //starting point of the sub array
-
             for (int j=i; j<n+1; j++) { //end point of the sub array
                 int sum = 0;
                 // so if my starting point is i; then my end point can be i up to n
