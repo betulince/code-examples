@@ -1,3 +1,5 @@
+package hackerRankJavaEOF;
+
 import java.io.*;
 import java.util.*;
 
