@@ -1,4 +1,7 @@
-public class Solution {
+
+// only 34/38 test cases pass
+
+class Solution {
     public void rotate(int[] nums, int k) {
         do {
             int lastElement = nums[nums.length - 1];
