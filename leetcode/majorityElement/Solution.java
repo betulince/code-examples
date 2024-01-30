@@ -1,4 +1,3 @@
-package leetcode.majorityElement
 public class Solution {
     public int majorityElement(int[] nums) {
 

@@ -1,4 +1,3 @@
-package leetcode.removeDuplicatesFromSortedArray1;
 public class Solution {
     public int removeDuplicates(int[] nums) {
 
