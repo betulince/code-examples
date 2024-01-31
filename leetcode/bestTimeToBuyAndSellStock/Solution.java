@@ -1,4 +1,5 @@
 class Solution {
+    // Single-pass algorithm
     public int maxProfit(int[] prices) {
 
         // 1. the day you buy the stock needs to come earlier than the day you sell the stock
