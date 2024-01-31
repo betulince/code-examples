@@ -11,7 +11,7 @@ class Solution {
                 maxIndex = i + nums[i];
             }
 
-            if (i == currentIndex) {
+            if (i == currentIndex) { // means we reached the end of the current jump and need to make a new jump
                 currentIndex = maxIndex;
                 jumpCount++;
             }
