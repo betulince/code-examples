@@ -1,6 +1,4 @@
-package leetcode.removeDuplicatesFromSortedArray2;
-
-public class Solution {
+class Solution {
     public int removeDuplicates(int[] nums) {
 
         int lenghtOfTheList = nums.length;

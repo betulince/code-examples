@@ -1,5 +1,4 @@
-package leetcode.majorityElement
-public class Solution {
+class Solution {
     public int majorityElement(int[] nums) {
 
         // We can use Boyer-Moore Algorithm to find the majority of the element

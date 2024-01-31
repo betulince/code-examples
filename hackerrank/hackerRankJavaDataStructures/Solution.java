@@ -6,7 +6,7 @@ import java.util.stream.*;
 
 public class Solution {
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution.java. */
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt(); //total lines
         ArrayList<ArrayList<Integer>> numberList = new ArrayList<>();
