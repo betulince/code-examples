@@ -12,6 +12,7 @@ class Solution {
         ways[2] = 2;
 
         for (int i=3; i<=n; i++) {
+            // you have two choices; climbing one step or climbing two steps
             ways[i] = ways[i-1] + ways[i-2];
         }
 
