@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean canJump(int[] nums) {
         int maxIndex = 0;
 

@@ -1,4 +1,6 @@
-class Solution {
+package leetcode.bestTimeToBuyAndSellStock1;
+
+public class Solution {
     // Single-pass algorithm
     public int maxProfit(int[] prices) {
 

@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Arrays;
+
+public class WorseSolution {
     public int hIndex(int[] citations) {
 
         int hIndex = 0;

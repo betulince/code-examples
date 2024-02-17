@@ -1,4 +1,6 @@
-class Solution {
+package dataStructuresAndAlgorithms.greedyAlgorithm;
+
+public class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         // we have only one most desirable solution
         // 1. greedy O(n)

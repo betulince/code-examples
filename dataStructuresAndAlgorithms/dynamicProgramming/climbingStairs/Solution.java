@@ -1,4 +1,6 @@
-class Solution {
+package dataStructuresAndAlgorithms.dynamicProgramming.climbingStairs;
+
+public class Solution {
     public int climbStairs(int n) {
         // Dynamic programming (memoized solution)
         // Each leaf node represents a unique combination of steps taken to reach the top of the staircase.
