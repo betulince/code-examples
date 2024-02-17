@@ -1,16 +1,23 @@
-
-// only 34/38 test cases pass
-
-class Solution {
+public class Solution {
     public void rotate(int[] nums, int k) {
-        do {
-            int lastElement = nums[nums.length - 1];
-            for (int i = nums.length - 1; i > 0; i--) {
-                nums[i] = nums[i - 1];
-            }
-            nums[0] = lastElement; // After shifting, the first position (index 0) becomes vacant, so the last element is placed at the beginning of the array.
-            k--;
-        } while (k > 0);
+        int n = nums.length;
 
+        // Reduce k to be within the range [0, n)
+        k = k % n;
+
+        reverse(nums, 0, n - 1); // Reverse the entire array
+        reverse(nums, 0, k - 1); // Reverse the first k elements
+        reverse(nums, k, n - 1); // Reverse the remaining elements
+    }
+
+    private void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+
+            start++;
+            end--;
+        }
     }
 }

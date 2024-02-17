@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int removeDuplicates(int[] nums) {
 
         int lenghtOfTheList = nums.length;

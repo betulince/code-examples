@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int trap(int[] height) {
 
         int water = 0;

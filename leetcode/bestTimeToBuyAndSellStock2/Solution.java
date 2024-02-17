@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
 
     // Greedy algorithm
     public int maxProfit(int[] prices) {

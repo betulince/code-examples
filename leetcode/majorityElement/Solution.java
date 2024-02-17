@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int majorityElement(int[] nums) {
 
         // We can use Boyer-Moore Algorithm to find the majority of the element

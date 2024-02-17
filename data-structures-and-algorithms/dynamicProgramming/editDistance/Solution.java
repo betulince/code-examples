@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public int minDistance(String word1, String word2) {
 
         // we are not going to change word2
