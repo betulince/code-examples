@@ -1,3 +1,5 @@
+package dataStructuresAndAlgorithms.dynamicProgramming.climbingStairs;
+
 public class Solution {
     public int climbStairs(int n) {
         // Dynamic programming (memoized solution)
