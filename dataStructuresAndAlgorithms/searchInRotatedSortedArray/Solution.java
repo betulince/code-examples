@@ -12,13 +12,13 @@ public class Solution {
                 return mid;
             } 
             if (nums[low] <= nums[mid]) {
-                if (nums[low] <= target && target < nums[mid]) {
+                if (nums[low] <= target && target < nums[mid]) { // if target is in between low and mid
                     high = mid - 1;
                 } else {
                     low = mid + 1;
                 }
-            } else {
-                if (nums[high] >= target && target > nums[mid]) {
+            } else { 
+                if (nums[high] >= target && target > nums[mid]) { // if target is in between mid and high
                     low = mid + 1;
                 } else {
                     high = mid - 1;
