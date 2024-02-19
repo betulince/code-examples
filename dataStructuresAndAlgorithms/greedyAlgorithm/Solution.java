@@ -28,7 +28,7 @@ public class Solution {
             total += (gas[i] - cost[i]); // add difference to the total
             if (total < 0) { // we're being greedy; this position didn't work set total back to 0 and try the next position
                 total = 0;
-                index = i+1; // so it means that we continue changing the index until total gets bigger or equels than 0 for the first time
+                index = i+1; // so it means that we continue changing the index until total gets bigger than or equals to 0 for the first time
             }
         }
         return index;
