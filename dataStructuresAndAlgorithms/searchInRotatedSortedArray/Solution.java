@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.searchInRotatedSortedArray;
+package datastructuresandalgorithms.searchInRotatedSortedArray;
 
 public class Solution {
     public int search(int[] nums, int target) {

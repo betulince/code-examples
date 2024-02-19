@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.longestConsecutiveSequence;
+package datastructuresandalgorithms.longestConsecutiveSequence;
 
 import java.util.HashSet;
 

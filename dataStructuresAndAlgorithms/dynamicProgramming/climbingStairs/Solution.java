@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.dynamicProgramming.climbingStairs;
+package datastructuresandalgorithms.dynamicProgramming.climbingStairs;
 
 public class Solution {
     public int climbStairs(int n) {

@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.interview;
+package datastructuresandalgorithms.interview;
 
 import java.util.ArrayList;
 import java.util.HashMap;

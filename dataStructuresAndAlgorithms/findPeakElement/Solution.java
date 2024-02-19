@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.findPeakElement;
+package datastructuresandalgorithms.findPeakElement;
 
 public class Solution {
     public int findPeakElement(int[] nums) {

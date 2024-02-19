@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.findFirstAndLastPositionOfAnElement;
+package datastructuresandalgorithms.findFirstAndLastPositionOfAnElement;
 
 public class Solution {
     public int[] searchRange(int[] nums, int target) {

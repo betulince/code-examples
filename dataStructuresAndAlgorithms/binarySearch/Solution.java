@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.binarySearch;
+package datastructuresandalgorithms.binarySearch;
 
 public class Solution {
     public int searchInsert(int[] nums, int target) {

@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.searchA2DMatrix;
+package datastructuresandalgorithms.searchA2DMatrix;
 
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {

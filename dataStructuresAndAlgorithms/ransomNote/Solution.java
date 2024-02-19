@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.ransomNote;
+package datastructuresandalgorithms.ransomNote;
 
 import java.util.HashMap;
 

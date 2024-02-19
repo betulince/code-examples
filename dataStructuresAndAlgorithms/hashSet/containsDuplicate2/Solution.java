@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.hashSet.containsDuplicate2;
+package datastructuresandalgorithms.hashSet.containsDuplicate2;
 
 import java.util.HashSet;
 

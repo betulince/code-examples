@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.dynamicProgramming.editDistance;
+package datastructuresandalgorithms.dynamicProgramming.editDistance;
 
 
 public class Solution {

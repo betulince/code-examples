@@ -1,4 +1,4 @@
-package dataStructuresAndAlgorithms.greedyAlgorithm;
+package datastructuresandalgorithms.greedyAlgorithm;
 
 public class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
