@@ -1,4 +1,4 @@
-package leetcode.twoSum.bruteforce;
+package leetcode.hashTable.twoSum.bruteforce;
 
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
