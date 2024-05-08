@@ -1,0 +1,16 @@
+SELECT 
+    c.name AS client_name,
+    ROUND(SUM(bi.invested_amount), 2) AS total_invested_in_bonds,
+    ROUND(SUM(si.invested_amount), 2) AS total_invested_in_stocks
+FROM 
+    clients c
+JOIN 
+    bond_investments bi ON c.id = bi.client_id
+JOIN 
+    stock_investments si ON c.id = si.client_id
+GROUP BY 
+    c.id, c.name
+HAVING 
+    total_invested_in_bonds > 5000.00
+ORDER BY 
+    total_invested_in_bonds DESC;
